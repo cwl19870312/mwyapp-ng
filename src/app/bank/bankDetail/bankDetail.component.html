@@ -1,0 +1,22 @@
+<div *ngIf="bank" class="bank-container">
+  <div class="bank-content">
+    {{bank.content_describe}}
+  </div>
+  <div class="bank-tap">
+    <div class="bank-tap-item" (click)="popupUp()">
+      <i class="icon-info"></i>申卡指南
+    </div>
+    <div class="bank-tap-item">
+      <button class="bank-tap-buttom">立即申请</button>
+    </div>
+  </div>
+  <app-popup>
+      {{bank.content_apply}}
+
+      111
+      <button (click)="popupDown()">X</button>
+    </app-popup>
+</div>
+
+
+

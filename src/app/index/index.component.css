@@ -1,0 +1,19 @@
+.index-inner{
+    position: relative;
+}
+
+.index-banner img{
+    width: 100%;
+}
+
+.index-content{
+    width: 86%;
+    padding:0.5rem;
+    background-color: #fff;
+    position: absolute;
+    top: -2rem;
+    left: 7%;
+    border-radius: 3px;
+    box-shadow: 0 0 8px 1px rgba(0,0,0,0.1);
+    padding: 0.4rem;
+}
